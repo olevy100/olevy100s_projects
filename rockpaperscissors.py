@@ -13,6 +13,9 @@ while True:
     scissors > paper
     paper > rock
     
+    if defense != rock or paper or scissors:
+        print('Error')
+        quit()
     if defense > attack:
         print('Congrats, you won!')
     if defense < attack:
