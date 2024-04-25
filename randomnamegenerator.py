@@ -4,7 +4,8 @@ g = input('what is your title (Mr, Ms, Dr, etc.):')
 h = (a + " " + b)
 c = (g + " " + h)
 i = (g + " " + b)
-print('hello' +' ' + i )
+print(" ")
+print('Hello ' + i )
 
 boy = ['John', 'Paul', 'George', 'Ringo', 'Oren', "Liam", "Noah", "Oliver", "James", "Elijah", "William", "Henry", "Lucas",
     "Benjamin","Theodore","Mateo","Levi","Sebastian","Daniel","Jack","Michael","Alexander","Owen","Asher","Samuel","Ethan","Leo"
@@ -19,8 +20,8 @@ last = ["Starr","Lennon", "McCartney", "Harrison", "Levy", "Yun", "Kim",  "Smith
     "Martin ", "Jackson ", "Thompson ", "White ", "Lopez ", "Lee " , "Gonzales ", "Smith ", "Johnson ", "Williams ", "Jones " , "Brown ",
     "Davis " ]
 import numpy as np
-print(" I am the random name generator, pleasure to meet you " + c + ".")
-j = input("do you want to try me out?")
+print(" ")
+j = input("I am the random name generator, pleasure to meet you " + c + "." + " Do you want to start?")
 
 if (j == 'yes' or j == 'Yes' or j == 'sure' or 'Sure'):
     k = input('do you want to generate a name?')
