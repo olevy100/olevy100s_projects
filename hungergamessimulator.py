@@ -1,7 +1,5 @@
 import random
 import time
-def dead():
-    dead = True
 words = input('Enter names seperated by spaces, press enter when you are done:')
 names = words.split(' ')
 print(names)
