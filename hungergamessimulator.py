@@ -27,4 +27,7 @@ while True:
         names.remove(nametwo)
         print(" ")
         time.sleep(3)
+    else:
+        time.sleep(3)
+        print(' ')
     print(f"{len(names)} remain")
